@@ -13,7 +13,7 @@ import static net.bytebuddy.matcher.ElementMatchers.named;
 public class Magician {
 
     public static void main(String[] args) {
-        ClassLoader classLoader = Magician.class.getClassLoader();
+       /* ClassLoader classLoader = Magician.class.getClassLoader();
         TypePool typePool = TypePool.Default.of(classLoader);
 
         try {
@@ -23,7 +23,7 @@ public class Magician {
                               .make().saveIn(new File("C:\\Users\\KYS\\Documents\\GitHub\\JavaControl\\target\\classes\\"));
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
 
        System.out.println(new Hat().pullOut());
     }
